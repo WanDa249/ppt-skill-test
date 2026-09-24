@@ -1,6 +1,6 @@
-# Workflow Guide
+# Workflow
 
-## Core Workflow
+## Core workflow
 
 Material Understanding
 
@@ -10,7 +10,11 @@ Goal Alignment
 
 ↓
 
-Narrative Planning
+Communication Logic
+
+↓
+
+Slide Role Planning
 
 ↓
 
@@ -32,14 +36,41 @@ Visual Lock
 
 Editable Reconstruction
 
+---
+
 ## Interaction Modes
 
-Baseline Mode:
-Reliable completion with essential decisions.
+### Baseline Mode
 
-Professional Mode:
-Deeper exploration and validation for high-stakes or ambiguous presentations.
+Used when the task direction is clear and reliable completion is the priority.
 
-## Boundary
+Focus:
+- understand requirements;
+- complete essential decision steps;
+- produce stable output.
 
-The Skill is a workflow capability, not a PPT platform, template system, or design database.
+### Professional Mode
+
+Used for high-stakes, judged, strategic, or ambiguous presentations.
+
+Increase:
+- exploration;
+- alternative comparison;
+- visual validation;
+- user decision points.
+
+Professional Mode improves decision quality, not system complexity.
+
+---
+
+## Before production
+
+Confirm when necessary:
+
+- audience;
+- purpose;
+- usage scenario;
+- constraints;
+- success criteria.
+
+Do not directly generate a full presentation when key direction choices remain unresolved.
