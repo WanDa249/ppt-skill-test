@@ -37,7 +37,22 @@ Use the current main branch of:
 
 https://github.com/WanDa249/ppt-skill-test
 
-The model should read the repository as the only PPT-methodology context for this test.
+For this smoke test, read only the core Skill files:
+- README.md
+- SKILL.md
+- AI_CONTEXT.md
+- docs/WORKFLOW.md
+
+Do not read:
+- experiments/
+- TEST_PROMPT.md
+- docs/HISTORY/
+- docs/ARCHIVE/
+- prior experiment reports or generated outputs
+
+If SKILL.md references a file that does not exist, record the missing dependency and continue from the core Skill text only. Do not invent, reconstruct, or substitute the missing reference.
+
+This restriction is deliberate: the smoke test is testing the core Skill behavior, not whether the model can learn from the experiment history.
 
 The updated SKILL.md includes the new minimal role-boundary guardrail.
 
@@ -69,18 +84,25 @@ Hard factual boundaries:
 Use exactly this prompt in both model conversations.
 
 ```text
-请先完整阅读这个 GitHub 仓库当前 main 分支，并把它作为本次任务唯一的 PPT Skill / 方法论上下文：
+请把这个 GitHub 仓库当前 main 分支作为本次任务唯一的 PPT Skill / 方法论上下文：
 
 https://github.com/WanDa249/ppt-skill-test
 
-请读取仓库中实际存在并与 Skill 执行相关的文件，尤其包括：
+本次测试只读取以下 4 个核心文件：
 - README.md
 - SKILL.md
 - AI_CONTEXT.md
 - docs/WORKFLOW.md
-- 以及 SKILL.md 明确要求读取且仓库中实际能够访问到的相关文件
 
-如果 SKILL.md 引用了实际不存在的文件，请只记录缺失事实，不要自行补写、重建或用你自己的方法论替代。
+不要读取：
+- experiments/ 下任何文件；
+- TEST_PROMPT.md；
+- docs/HISTORY/；
+- docs/ARCHIVE/；
+- 任何历史实验报告、旧测试提示词或此前生成结果。
+
+如果 SKILL.md 引用了实际不存在的 references/ 文件，只记录“该依赖缺失”，然后仅依据上述 4 个核心文件继续。
+不要自行补写、重建、猜测缺失 reference 的内容，也不要用你自己的另一套 PPT 方法论替代。
 
 本次使用 Professional Mode。
 
@@ -186,7 +208,13 @@ The goal is:
 
 > different visual solutions that stay inside the correct presentation-role solution space.
 
-## 8. Stop condition
+## 8. Validity note
+
+This protocol intentionally excludes experiment-history files because reading them would contaminate the test by revealing prior failure modes, hypotheses, and expected outcomes.
+
+The missing `references/` files remain a repository-consistency issue and should be resolved separately. Results from this smoke test should be interpreted as evidence about the **core Skill text**, not as proof that the repository currently contains a complete Professional Mode package.
+
+## 9. Stop condition
 
 Do not modify SKILL.md again based on one run.
 
