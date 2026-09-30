@@ -97,6 +97,7 @@ For every slide, know internally:
 - **job** — why this slide exists;
 - **message** — the main thing the audience should take from it;
 - **evidence/content** — what supports that message;
+- **role boundary** — what this slide is responsible for, and what should deliberately be left to other slides;
 - **visual form** — the clearest way to express it;
 - **connection** — why the next slide follows.
 
@@ -258,7 +259,7 @@ Do not mechanically use "background → problem → solution → result" unless 
 
 Map the communication logic to a provisional slide architecture before visual-direction selection.
 
-For each expected slide or slide family, determine its job, message, evidence, and likely role before writing final slide copy. At minimum, know which role families the visual system must support, such as cover, evidence/photo, process/route, data/chart, section/transition, comparison, team, or conclusion.
+For each expected slide or slide family, determine its job, message, evidence, and likely role before writing final slide copy. For important slide roles, also know the **role boundary**: what the slide must accomplish and what should remain for other slides. At minimum, know which role families the visual system must support, such as cover, evidence/photo, process/route, data/chart, section/transition, comparison, team, or conclusion.
 
 Do not freeze every page structure yet. Representative visual validation may reveal that some pages should be merged, split, or expressed differently.
 
@@ -291,7 +292,7 @@ For visually important decks, when image generation is available, generate a sma
 - one evidence/photo-led slide;
 - one process/data/diagram slide when relevant.
 
-Check the actual renders before judging polish. Verify that they fit the real audience and occasion, behave like presentation slides rather than an unrelated visual genre, remain coherent across page types, preserve factual/documentary constraints, and can plausibly be reconstructed as editable slides.
+Check the actual renders before judging polish. Verify that they fit the real audience and occasion, behave like presentation slides rather than an unrelated visual genre, remain coherent across page types, preserve factual/documentary constraints, and can plausibly be reconstructed as editable slides. Also check for **slide-role drift**: a visually strong page must still perform its intended presentation job rather than taking over work that belongs to other slides.
 
 Only after the representative pages are good enough should the model establish **Visual Lock**: a concise record of the design decisions that must remain stable across the deck.
 
@@ -390,6 +391,7 @@ Actively avoid:
 - **renderer takeover** — a downstream presentation Skill silently replaces the locked narrative or visual system with its own default workflow;
 - **style-by-default** — the first available theme is used without visual exploration on a high-stakes deck;
 - **evaluation-context drift** — the thesis is coherent but optimized for the wrong success criterion or presentation setting;
+- **slide-role drift** — a page is visually competent but no longer performs its intended presentation job, such as a cover becoming an information overview or an evidence slide becoming a promotional poster;
 - **global rewrite for local edit** — a small requested change unnecessarily disrupts the rest of the deck.
 
 ## Completion standard
