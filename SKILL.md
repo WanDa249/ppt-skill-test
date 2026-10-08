@@ -20,6 +20,8 @@ For substantive new presentations, especially judged/high-stakes decks or decks 
 
 Adapt depth to the task's complexity and stakes, not to the model identity.
 
+Baseline Mode prioritizes reliable completion when the direction is clear. Professional Mode adds effort where it improves consequential framing choices, visual exploration, and representative validation. Both follow the same core workflow; neither requires automatic approvals or fixed visual styles.
+
 ## Core rules
 
 ### 1. Evidence before expression
@@ -97,7 +99,7 @@ For every slide, know internally:
 - **job** — why this slide exists;
 - **message** — the main thing the audience should take from it;
 - **evidence/content** — what supports that message;
-- **role boundary** — what this slide is responsible for, and what should deliberately be left to other slides;
+- **role boundary** (for important or easily confused slides) — the slide's primary responsibility and what belongs elsewhere, without excluding useful supporting context;
 - **visual form** — the clearest way to express it;
 - **connection** — why the next slide follows.
 
@@ -259,7 +261,7 @@ Do not mechanically use "background → problem → solution → result" unless 
 
 Map the communication logic to a provisional slide architecture before visual-direction selection.
 
-For each expected slide or slide family, determine its job, message, evidence, and likely role before writing final slide copy. For important slide roles, also know the **role boundary**: what the slide must accomplish and what should remain for other slides. At minimum, know which role families the visual system must support, such as cover, evidence/photo, process/route, data/chart, section/transition, comparison, team, or conclusion.
+For each expected slide or slide family, determine its job, message, evidence, and likely role before writing final slide copy. For important or easily confused slide roles, also know the **role boundary**: what the slide must accomplish and what belongs elsewhere, while allowing necessary supporting context. At minimum, know which role families the visual system must support, such as cover, evidence/photo, process/route, data/chart, section/transition, comparison, team, or conclusion.
 
 Do not freeze every page structure yet. Representative visual validation may reveal that some pages should be merged, split, or expressed differently.
 
@@ -281,7 +283,7 @@ First form a concise **Visual Intent** from the audience, occasion, selected fra
 
 Use a small Reference Pack only when references are likely to improve direction control. References must reinforce the task's direction rather than redefine it. There is no required reference count.
 
-If several fundamentally different visual directions are genuinely plausible and the choice would materially change the deck, show the user a small number of meaningful alternatives. If one direction is clearly appropriate, continue without manufacturing choices.
+If several fundamentally different visual directions are genuinely plausible and the choice would materially change the deck, show a few meaningful alternatives (with representative previews when helpful) and let the user choose before Visual Lock. If one direction is clearly appropriate, continue without manufacturing choices or extra approval.
 
 For visually important decks, when image generation is available, generate a small representative set before Visual Lock. Choose pages that expose the main visual risks, usually:
 - the cover;
