@@ -225,7 +225,7 @@ If the user explicitly says a supplied document is authoritative, treat it as su
 
 Infer the goal state from the available evidence.
 
-For judged/evaluated tasks, first determine what success in that setting actually means. If the materials support multiple substantially different central framings, follow Gate A in `references/workflow-gates.md` and stop for a concise user decision before proceeding.
+For judged/evaluated tasks, first determine what success in that setting actually means. If the materials support multiple substantially different central framings, pause for a concise user choice before proceeding (Gate A).
 
 Proceed automatically only when the direction is genuinely clear.
 
@@ -269,11 +269,7 @@ Titles should normally state the slide's point, not merely label its topic.
 
 ### Step 5 — Set the visual intent, test it on representative pages, then lock what works
 
-For substantive new decks, follow Gate B in `references/workflow-gates.md`. This is mandatory unless the user has already supplied a detailed visual system that can be used without reinterpretation. Before visual exploration, also read:
-- `references/visual-exploration.md`
-- `references/visual-quality.md`
-- `references/direction-library.md`
-- `references/reference-index.md`
+For substantive new decks, resolve the visual-direction decision (Gate B) using the criteria below before full production. If the user has already supplied a usable detailed visual system, do not force a new choice.
 
 Keep this stage simple.
 
