@@ -1,7 +1,7 @@
 ---
 name: ai-ppt-skill
 description: Design high-quality presentations from complex materials by grounding claims in evidence, aligning the real communication goal, building a coherent communication logic, mapping it to slide-level jobs, and reviewing before delivery. Use when creating or substantially restructuring a presentation, defense deck, research presentation, project report, pitch, teaching deck, or when turning documents/data/images into slides. Do not use for a purely mechanical one-line edit unless that edit requires presentation-design judgment.
-version: 0.6.0
+version: 0.6.1
 ---
 
 # AI PPT Skill
